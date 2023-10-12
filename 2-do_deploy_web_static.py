@@ -9,7 +9,7 @@ import re
 # Set the username and host for SSH connection to the server
 env.user = 'ubuntu'
 env.hosts = ['107.20.129.200', '34.226.190.215']
-env.key_filename = '~/.ssh/id_rsa'
+env.key_filename = '~/.ssh/school'
 
 
 def do_deploy(archive_path):
